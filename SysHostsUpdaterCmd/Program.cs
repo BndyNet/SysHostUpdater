@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Diagnostics;
 
 namespace SysHostsUpdaterCmd
 {
-	using SysHostsUpdater;
-	class Program
+    using SysHostsUpdater;
+    class Program
 	{
 		static void Main(string[] args)
 		{

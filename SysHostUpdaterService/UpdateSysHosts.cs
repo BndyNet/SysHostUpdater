@@ -1,22 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Net;
+﻿using System.Diagnostics;
 using System.ServiceProcess;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Timers;
 
 namespace SysHostsUpdaterService
 {
-	using SysHostsUpdater;
-	public partial class UpdateSysHosts : ServiceBase
+    using SysHostsUpdater;
+    public partial class UpdateSysHosts : ServiceBase
 	{
-		private const string LogName = "CommerNet";
+		private const string LogName = "Bndy.Net";
 		private Timer _timer;
 		private Updater _updater;
 		public UpdateSysHosts()
